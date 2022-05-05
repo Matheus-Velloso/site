@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Licorice&family=Montserrat:ital,wght@0,200;0,300;0,600;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100vh;
+}
+body{
+    font-family: 'Josef Sans', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a:link{
+    text-decoration: none;
+}
+:root{
+    --color-primay: #612F74;
+    --color-content: #353535;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 15px ;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.flex{
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+.main-img{
+    width: 25%;
+}
+.text-align-center{
+    text-align: center;
+}
+.bg-header{
+    background-color: var(--color-primay);
+}
+.bg-content{
+    background-color: var(--color-content);
+}
+.text-white{
+    color: #fff;
+}
+.align-self{
+    align-self: center;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.grid > div{
+    flex-basis: 33.3%;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.px{
+    padding-left: 15px;
+    padding-right: 15px;
+}
