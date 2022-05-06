@@ -35,6 +35,15 @@ a:link{
     margin-right: auto;
 
 }
+.container-2{
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 15px ;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .flex{
     display: flex;
 }
@@ -107,9 +116,15 @@ a:link{
 .banner-img{
     width: 100%;
 }
-.pl{
+.pl-1{
+    padding-left: 8px;
+}
+.pr-1{
+    padding-right: 8px;
+}
+.pl-2{
     padding-left: 32px;
 }
-.pr{
+.pr-2{
     padding-right: 32px;
 }
